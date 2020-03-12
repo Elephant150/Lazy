@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contain {
+    background: #343a40;
+    /*height: 59px;*/
+    /*box-sizing: border-box;*/
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    /*display: block;*/
+}
+
+a {
+    outline: none;
+    color: #2a2f34;
+}
+
+a:hover {
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+.tline {
+    flex-direction: row;
+    width: 33%;
+    padding-left: 10px;
+}
+
+.card {
+    background: #eeeeee;
+}
+
+.welcomeBlock {
+    text-align: center;
+    padding: 191px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.titleBlock{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        background: #eeeeee;
+        width: 80%;
+    }
+
+    .card-text {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .tline {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        padding-left: 46px;
+    }
+
+    .titleBlock{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tline {
+        width: 60%;
+        padding-left: 58px;
+    }
+
+    .titleBlock{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tline {
+        padding-left: 46px;
+    }
+
+    .titleBlock{
+        font-size: 15px;
+    }
+}
+
