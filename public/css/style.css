@@ -12,6 +12,21 @@
     /*display: block;*/
 }
 
+.scale{
+    /*transition: 0.5s;*/
+    display: inline-block;
+    overflow: hidden;
+}
+
+.scale img{
+    transition: 0.5s;
+    display: block;
+}
+
+.scale img:hover{
+    transform: scale(1.2);
+}
+
 a {
     outline: none;
     color: #2a2f34;

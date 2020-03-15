@@ -1,4 +1,4 @@
-@include('templates.header')
+@include('layouts.header')
 @yield('header')
 
 <div class="container">
@@ -44,5 +44,5 @@
 </div>
 
 
-@include('templates.footer')
+@include('layouts.footer')
 @yield('footer')

@@ -9,6 +9,6 @@ class TestController extends Controller
     public function test()
     {
         $title = 'Main';
-        return view('templates.mainTemplate', ['title' => $title]);
+        return view('welcome', ['title' => $title]);
     }
 }

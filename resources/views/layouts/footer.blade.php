@@ -1,4 +1,4 @@
-@include('templates.header')
+@include('layouts.header')
 @section('footer')
     <!-- Footer -->
     <footer class="page-footer font-small mdb-color pt-4">
