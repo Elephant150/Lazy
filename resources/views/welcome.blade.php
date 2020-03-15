@@ -1,4 +1,6 @@
-@include('layouts.app')
+@extends('layouts.app')
+{{--@yield('title')--}}
+{{--{{$title ?? ''}}--}}
 {{--<!DOCTYPE html>--}}
 {{--<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">--}}
 {{--    <head>--}}
@@ -99,58 +101,47 @@
 {{--        </div>--}}
 {{--    </body>--}}
 {{--</html>--}}
-{{--@include('layouts.header')--}}
 
-
-
-
-
-{{--@include('layouts.app')--}}
-{{--@yield('header')--}}
-<div class="container">
-    <div class="row center">
-        <div class="col-12 welcomeBlock">
-            <p class="titleBlock">Welcome to my site.</p>
+@section('content')
+    <div class="container">
+        <div class="row center">
+            <div class="col-12 welcomeBlock">
+                <p class="titleBlock">Welcome to my site.</p>
+            </div>
+        </div>
+        <div class="row">
+                <div class="tline">
+                    <div class="card scale">
+                        <img src="img/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tline">
+                    <div class="card scale">
+                        <img src="img/8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tline">
+                    <div class="card scale">
+                        <img src="img/7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
-    <div class="row">
-        @section('block')
-            <div class="tline">
-                <div class="card scale">
-                    <img src="img/1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="tline">
-                <div class="card scale">
-                    <img src="img/8.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="tline">
-                <div class="card scale">
-                    <img src="img/7.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                    </div>
-                </div>
-            </div>
-        @show
-    </div>
-</div>
 
+@endsection
 
-{{--<div class="flex-center position-ref full-height">--}}
-
-{{--@include('layouts.footer')--}}
-@yield('footer')
