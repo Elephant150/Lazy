@@ -29,7 +29,7 @@
 <div id="app">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm" style="line-height: 26px">
         <div class="container">
-            <a class="navbar-brand" href="{{ url('/') }}">
+            <a class="navbar-brand" href="{{ url('/home') }}">
                 {{ config('app.name', 'Lazy') }}
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -85,7 +85,12 @@
     </nav>
 
     <main class="py-4">
-        @yield('content')
+        <div class="container">
+            <div class="row">
+                @yield('sidebar')
+                @yield('content')
+            </div>
+        </div>
     </main>
 </div>
 <footer class="pt-5">
@@ -201,7 +206,8 @@
         </footer>
         <!-- Footer -->
 
-    @show
+    @endsection
+    @yield('footer')
 
 </footer>
 
