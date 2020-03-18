@@ -6,12 +6,12 @@
     <div class="col-2 sidebar">
         {{--                <h3>sidebar</h3>--}}
         <ul>
-            <li><a href="#">My page</a></li>
-            <li><a href="#">My friends</a></li>
-            <li><a href="#">My news</a></li>
-            <li><a href="#">My message</a></li>
-            <li><a href="#">My chat</a></li>
-            <li><a href="#">My gallery</a></li>
+            <li><a href="{{route('myPage')}}">My page</a></li>
+            <li><a href="#">Friends</a></li>
+            <li><a href="{{route('home')}}">News</a></li>
+            <li><a href="#">Message</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
     </div>
     {{--        </div>--}}
@@ -34,7 +34,7 @@
                     impedit, incidunt ipsam minus natus necessitatibus nostrum optio perferendis voluptates. Maiores
                     nihil pariatur quo saepe ullam?</p>
             </div>
-            <img style="height: 20%;" src="img/1.jpg" class="card-img-top" alt="">
+            <img style="height: 20%;" src="img/1.jpg" class="card-img-top content-box-img " alt="">
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
     </div>

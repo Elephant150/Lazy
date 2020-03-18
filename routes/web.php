@@ -20,3 +20,4 @@ Route::get('test', 'TestController@test');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/mypage', 'myPageController@myPage')->name('myPage');

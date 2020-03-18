@@ -3615,7 +3615,7 @@ input[type=button].btn-block {
     border: 0;
 }
 
-.dropdown-mypage-item {
+.dropdown-line-item {
     border-bottom: 1px solid #343a40;
     line-height: 30px;
     display: block;
@@ -3631,7 +3631,7 @@ input[type=button].btn-block {
     /*text-decoration: underline;*/
 }
 
-.dropdown-mypage-item:hover{
+.dropdown-line-item:hover{
     color: #16181b;
     text-decoration: none;
     background-color: #f8f9fa;
