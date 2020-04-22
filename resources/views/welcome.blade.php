@@ -100,48 +100,8 @@
 {{--    </body>--}}
 {{--</html>--}}
 @section('content')
-    {{--    <div class="container">--}}
-    {{--        <div class="row">--}}
-    {{--            <div class="col-12 welcomeBlock">--}}
-    {{--                <p class="titleBlock">Welcome to my site.</p>--}}
-    {{--            </div>--}}
-    {{--        </div>--}}
-    {{--        <div class="row">--}}
-    {{--                <div class="tline">--}}
-    {{--                    <div class="card scale">--}}
-    {{--                        <img src="img/1.jpg" class="card-img-top" alt="...">--}}
-    {{--                        <div class="card-body">--}}
-    {{--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of--}}
-    {{--                                the card's--}}
-    {{--                                content.</p>--}}
-    {{--                        </div>--}}
-    {{--                    </div>--}}
-    {{--                </div>--}}
-    {{--                <div class="tline">--}}
-    {{--                    <div class="card scale">--}}
-    {{--                        <img src="img/8.jpg" class="card-img-top" alt="...">--}}
-    {{--                        <div class="card-body">--}}
-    {{--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of--}}
-    {{--                                the card's--}}
-    {{--                                content.</p>--}}
-    {{--                        </div>--}}
-    {{--                    </div>--}}
-    {{--                </div>--}}
-    {{--                <div class="tline">--}}
-    {{--                    <div class="card scale">--}}
-    {{--                        <img src="img/7.jpg" class="card-img-top" alt="...">--}}
-    {{--                        <div class="card-body">--}}
-    {{--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of--}}
-    {{--                                the card's--}}
-    {{--                                content.</p>--}}
-    {{--                        </div>--}}
-    {{--                    </div>--}}
-    {{--                </div>--}}
-    {{--        </div>--}}
-    {{--    </div>--}}
 
-
-    <header style="width: 100%;">
+    <header style="width: 100%; padding-bottom: 50px">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -150,13 +110,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="http://placehold.it/912x520" alt="First slide">
+                    <img class="d-block w-100" src="http://placehold.it/1140x650" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="http://placehold.it/912x520" alt="First slide">
+                    <img class="d-block w-100" src="http://placehold.it/1140x650" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="http://placehold.it/912x520" alt="First slide">
+                    <img class="d-block w-100" src="http://placehold.it/1140x650" alt="First slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -172,16 +132,15 @@
 
     <!-- Page Content -->
     <div class="container">
-        <!-- Portfolio Section -->
-        <h2>Portfolio Heading</h2>
+        <h2>Some text</h2>
 
         <div class="row">
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-4 col-sm-6 ">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/350x200" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="#">Project One</a>
+                            <a href="#">First</a>
                         </h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam
                             aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt,
@@ -189,24 +148,24 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-4 col-sm-6 ">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/350x200" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="#">Project Two</a>
+                            <a href="#">Second</a>
                         </h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
                             euismod odio, gravida pellentesque urna varius vitae.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-4 col-sm-6 ">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/350x200" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="#">Project Three</a>
+                            <a href="#">Third</a>
                         </h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam,
                             error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere
