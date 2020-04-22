@@ -25,7 +25,8 @@
         {{--        <div class="card mb-3">--}}
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">{{ Auth::user()->name }}</h5>
+                <a href="{{route ('myPage')}}" class="card-title">{{ Auth::user()->name }}</a>
+                <hr>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda
                     distinctio et, ex facereimpedit, incidunt ipsam minus natus necessitatibus nostrum optio perferendis
                     voluptates. Maiores

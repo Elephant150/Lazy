@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="abe731a3-49be-419b-b4d7-e8d21ff0c7a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/templates/myPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/templates/myPage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,10 @@
       <updated>1583745497272</updated>
       <workItem from="1583745499148" duration="47097000" />
       <workItem from="1584297877247" duration="15310000" />
-      <workItem from="1584474297287" duration="11031000" />
+      <workItem from="1584474297287" duration="13539000" />
+      <workItem from="1584793178543" duration="395000" />
+      <workItem from="1584885303374" duration="3939000" />
+      <workItem from="1587555061293" duration="6014000" />
     </task>
     <servers />
   </component>
@@ -186,6 +188,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="304" y="171" width="751" height="454" key="EditFileWatcherDialog/0.27.1366.741@0.27.1366.741" timestamp="1583759114614" />
+    <state x="466" y="156" width="428" height="484" key="FileChooserDialogImpl" timestamp="1584894025072">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="156" width="428" height="484" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1600.900@0.27.1366.741" timestamp="1584894025072" />
     <state x="379" y="198" width="601" height="400" key="NewPhpClassDialog" timestamp="1584476040087">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -206,9 +212,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="345" y="176" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1584301914108" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583747056901">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584551587473">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1583747056901" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1584551587473" />
   </component>
 </project>

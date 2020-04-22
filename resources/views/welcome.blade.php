@@ -1,6 +1,4 @@
 @extends('layouts.app')
-{{--@yield('title')--}}
-{{--{{$title ?? ''}}--}}
 {{--<!DOCTYPE html>--}}
 {{--<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">--}}
 {{--    <head>--}}
@@ -102,46 +100,123 @@
 {{--    </body>--}}
 {{--</html>--}}
 @section('content')
-    <div class="container">
-        <div class="row center">
-            <div class="col-12 welcomeBlock">
-                <p class="titleBlock">Welcome to my site.</p>
+    {{--    <div class="container">--}}
+    {{--        <div class="row">--}}
+    {{--            <div class="col-12 welcomeBlock">--}}
+    {{--                <p class="titleBlock">Welcome to my site.</p>--}}
+    {{--            </div>--}}
+    {{--        </div>--}}
+    {{--        <div class="row">--}}
+    {{--                <div class="tline">--}}
+    {{--                    <div class="card scale">--}}
+    {{--                        <img src="img/1.jpg" class="card-img-top" alt="...">--}}
+    {{--                        <div class="card-body">--}}
+    {{--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of--}}
+    {{--                                the card's--}}
+    {{--                                content.</p>--}}
+    {{--                        </div>--}}
+    {{--                    </div>--}}
+    {{--                </div>--}}
+    {{--                <div class="tline">--}}
+    {{--                    <div class="card scale">--}}
+    {{--                        <img src="img/8.jpg" class="card-img-top" alt="...">--}}
+    {{--                        <div class="card-body">--}}
+    {{--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of--}}
+    {{--                                the card's--}}
+    {{--                                content.</p>--}}
+    {{--                        </div>--}}
+    {{--                    </div>--}}
+    {{--                </div>--}}
+    {{--                <div class="tline">--}}
+    {{--                    <div class="card scale">--}}
+    {{--                        <img src="img/7.jpg" class="card-img-top" alt="...">--}}
+    {{--                        <div class="card-body">--}}
+    {{--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of--}}
+    {{--                                the card's--}}
+    {{--                                content.</p>--}}
+    {{--                        </div>--}}
+    {{--                    </div>--}}
+    {{--                </div>--}}
+    {{--        </div>--}}
+    {{--    </div>--}}
+
+
+    <header style="width: 100%;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="http://placehold.it/912x520" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="http://placehold.it/912x520" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="http://placehold.it/912x520" alt="First slide">
+                </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Portfolio Section -->
+        <h2>Portfolio Heading</h2>
+
         <div class="row">
-                <div class="tline">
-                    <div class="card scale">
-                        <img src="img/1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's
-                                content.</p>
-                        </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project One</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam
+                            aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt,
+                            dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
                     </div>
                 </div>
-                <div class="tline">
-                    <div class="card scale">
-                        <img src="img/8.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's
-                                content.</p>
-                        </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Two</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+                            euismod odio, gravida pellentesque urna varius vitae.</p>
                     </div>
                 </div>
-                <div class="tline">
-                    <div class="card scale">
-                        <img src="img/7.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's
-                                content.</p>
-                        </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Three</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam,
+                            error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere
+                            atque iure perspiciatis mollitia recusandae vero vel quam!</p>
                     </div>
                 </div>
+            </div>
+
         </div>
     </div>
-
 @endsection
 
 @section('footer')
@@ -257,117 +332,3 @@
     <!-- Footer -->
 
 @endsection
-@section('footer')
-    <!-- Footer -->
-        <footer class="page-footer font-small mdb-color pt-4">
-
-            <!-- Footer Links -->
-            <div class="container text-center text-md-left">
-
-                <!-- Footer links -->
-                <div class="row text-center text-md-left mt-3 pb-3">
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Lazy</h6>
-                        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
-                            amet,
-                            consectetur
-                            adipisicing elit.</p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="w-100 clearfix d-md-none">
-
-                    <hr class="w-100 clearfix d-md-none">
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-                        <p>
-                            <a href="#">Your Account</a>
-                        </p>
-                        <p>
-                            <a href="#">About</a>
-                        </p>
-                        <p>
-                            <a href="#">Help</a>
-                        </p>
-                    </div>
-
-                    <!-- Grid column -->
-                    <hr class="w-100 clearfix d-md-none">
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p>
-                            <i class="fas fa-home mr-3"></i> TERNOPIL, TE 46002, UA</p>
-                        <p>
-                            <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-                        <p>
-                            <i class="fas fa-phone mr-3"></i> + 380 96 000 0000</p>
-                        <p>
-                            <i class="fas fa-phone mr-3"></i> + 380 97 111 1111</p>
-                    </div>
-                    <!-- Grid column -->
-
-                </div>
-                <!-- Footer links -->
-
-                <hr>
-
-                <!-- Grid row -->
-                <div class="row d-flex align-items-center">
-
-                    <!-- Grid column -->
-                    <div class="col-md-7 col-lg-8 ">
-
-                        <!--Copyright-->
-                        <p class="text-center text-md-left">© 2020 Copyright:
-                            <a href="#">
-                                <strong> GitHub.com</strong>
-                            </a>
-                        </p>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-5 col-lg-4 ml-lg-0 ">
-
-                        <!-- Social buttons -->
-                        <div class="text-center text-md-right">
-                            <ul class="list-unstyled list-inline">
-                                <li class="list-inline-item">
-                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <!-- Grid column -->
-
-                </div>
-                <!-- Grid row -->
-
-            </div>
-            <!-- Footer Links -->
-
-        </footer>
-        <!-- Footer -->
-
-    @endsection
-{{--    @yield('footer')--}}

@@ -19,28 +19,38 @@
 @section('content')
     <div class="col-10">
         <div class="grid-container">
-            <div class="item1"><p>topBar</p></div>
-            <div class="item2"><img src="img/8.jpg" alt=""></div>
-            <div class="item3">
-                <ul>
-                    <li>12321</li>
-                    <li>asdas</li>
-                    <li>asdas</li>
-                    <li>assad</li>
-                    <li>asdasd</li>
-                </ul>
+            <div class="item2">
+                <img src="img/8.jpg" alt="">
+                <button type="button" class="btn btn-secondary">Add to friends</button>
             </div>
-            <div class="item4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus atque aut, beatae
-                ipsum laudantium sed. Ab, aliquid, amet dolor, dolorem est facilis perspiciatis quisquam velit veniam
-                veritatis vitae voluptatem.
+            <div class="item3">
+                <a href="{{route('myPage')}}">{{ Auth::user()->name }}</a>
+                <hr style="background-color: #343a40">
+                <ul style="list-style-type: none">
+                    <li>City:</li>
+                    <li>Birthday:</li>
+                    <li>Phone number:</li>
+                    {{--                    <li></li>--}}
+                    {{--                    <li>asdasd</li>--}}
+                </ul>
+
+                <hr style="background-color: #343a40; margin-bottom: 70px">
+            </div>
+            <div class="item4">
+                <ul>
+                    <li>Friends</li>
+                    <li>Text1</li>
+                    <li>Text2</li>
+                </ul>
             </div>
             <div class="item5">
                 <div class="col-10 content-box">
                     {{--        <h1>main content</h1>--}}
                     {{--        <div class="card mb-3">--}}
-                    <div class="card">
+                    <div class="card" style="width: 124%;">
                         <div class="card-body">
-
+                            <a href="#">{{ Auth::user()->name }}</a>
+                            <hr>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
                                 assumenda
                                 distinctio et, ex facereimpedit, incidunt ipsam minus natus necessitatibus nostrum optio
